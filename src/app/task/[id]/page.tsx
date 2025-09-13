@@ -7,7 +7,6 @@ import { formatDate, formatDistanceToNow } from "@/app/utils";
 import useTasks from "@/hooks/useTasks";
 import Link from "next/link";
 import { useParams } from "next/navigation";
-import { useEffect } from "react";
 
 const Page = () => {
   const params = useParams<{ id: string }>();

@@ -3,7 +3,6 @@
 import Error from "@/app/error";
 import Loading from "@/app/loading";
 import NotFound from "@/app/not-found";
-import { formatDate, formatDistanceToNow } from "@/app/utils";
 import TaskCard from "@/components/TaskCard";
 import useTasks from "@/hooks/useTasks";
 import Link from "next/link";
